@@ -1,0 +1,48 @@
+@import "nullstyle.scss";
+
+.header {
+   background-color: #c6c6c6;
+   &__navigation {
+      display: flex;
+      margin: 0 auto;
+      width: 1080px;
+   }
+
+   &__logo-link {
+      margin: 0 50px 0 0;
+   }
+
+   &__logo-image {
+      max-height: 100px;
+      width: auto;
+   }
+
+   &__navigation-list {
+      display: flex;
+      align-items: center;
+   }
+
+   &__navigation-item {
+   }
+
+   &__navigation-link {
+      margin: 0 15px 0 0;
+      padding: 15px 30px;
+      background-color: rgb(27, 170, 27);
+   }
+
+   &__social-list {
+      display: flex;
+      align-items: center;
+      margin: 0 0 0 auto;
+   }
+
+   &__social-item {
+      width: 25px;
+      height: 25px;
+      background-color: rgb(27, 170, 27);
+   }
+
+   &__social-link {
+   }
+}
