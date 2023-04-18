@@ -81,6 +81,46 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
+@font-face {
+  font-family: "Monstserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Montserrat-Regular.woff2") format("woff2");
+  src: url("/fonts/Montserrat-Regular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Monstserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/Montserrat-Bold.woff2") format("woff2");
+  src: url("/fonts/Montserrat-Bold.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Monstserrat";
+  font-style: italic;
+  font-weight: 400;
+  src: url("/fonts/Montserrat-Italic.woff2") format("woff2");
+  src: url("/fonts/Montserrat-Italic.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Monstserrat";
+  font-style: italic;
+  font-weight: 700;
+  src: url("/fonts/Montserrat-BoldItalic.woff2") format("woff2");
+  src: url("/fonts/Montserrat-BoldItalic.woff") format("woff");
+  font-display: swap;
+}
+
+body {
+  font-family: "Montserrat", "Arial", sans-serif;
+}
+
 .header {
   background-color: #c6c6c6;
 }
@@ -98,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__logo-image {
-  max-height: 100px;
+  max-height: 40px;
   width: auto;
 }
 
@@ -112,9 +152,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header__navigation-link {
-  margin: 0 15px 0 0;
-  padding: 15px 30px;
-  background-color: #1baa1b;
+  margin: 0 5px 0 0;
+  padding: 10px 25px;
+}
+
+.header__navigation-link:hover {
+  background-color: #97ce68;
 }
 
 .header__social-list {
@@ -130,5 +173,5 @@ h1, h2, h3, h4, h5, h6 {
 .header__social-item {
   width: 25px;
   height: 25px;
-  background-color: #1baa1b;
+  background-color: #97ce68;
 }
